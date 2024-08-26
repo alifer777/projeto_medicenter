@@ -154,3 +154,162 @@ nav a:hover{
     font-size: 13px;
     color: #ffffff;
 }
+
+/* Conteúdo Geral e secundário */
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+}
+
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+.widget_title_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+/* Últimas Notícias */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a{
+    text-decoration: none;
+}
+
+article .news_data{
+    display: flex;
+}
+
+article .news_posted_at{
+    background-color: #2b4c99;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_comments{
+    background-color: #39aae1;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;   
+}
+
+article .news_thumbnail{
+    margin-top: 30px;
+}
+
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .news_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
+
+article .news_resume{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Departamentos */
+
+.widget_body_department{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.widget_body_department a{
+    width: 150px;
+    height: 150px;
+    background-color: #39aae1;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+/* Marcação de Consulta */
+
+.widget_body_appointment{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.widget_body_appointment p{
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.contact_data{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    align-items: center     ;
+}
+
+.contact_data span{
+    margin-right: 10px;
+    height: 29px;
+    width: 29px;
+}
+
+.contact_data span img{
+    height: 29px;
+    width: 29px;   
+}
+
+.info_contact{
+    padding: 5px 0;
+}
+
+.info_contact strong{
+    color: black;
+}
+
+.info_contact a{
+    border-bottom: 1px dotted #3156ae;
+    color: #3156ae;
+    text-decoration: none;
+}
