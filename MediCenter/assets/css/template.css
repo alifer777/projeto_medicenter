@@ -313,3 +313,115 @@ article .news_resume{
     color: #3156ae;
     text-decoration: none;
 }
+/* footer */
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.flexColumn{
+    flex-direction: column;
+}
+.footer_menu{
+    display:flex;
+}
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color:#ffffff;
+}
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+}
+.fm_1{
+    background-color: #39aae1;
+}
+.fm_2{
+    background-color: #0576af;
+}
+.fm_3{
+    background-color: #00293d;
+}
+.footer_area{
+    display: flex;
+}
+.footer_area_item{
+    flex:1;
+    color:#ffffff;
+}
+
+footer .widget_title_text{
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.widget_body_posts a{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #d5d5d5;
+}
+.widget_body_tweets a{
+    display: flex;
+    justify-content:flex-start;
+    text-decoration: none;
+    color: #909090;
+}
+.latest_posts p,
+.latest_tweets p{
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.widget_body_posts,
+.widget_body_tweets,
+.widget_body_clinic{
+ font-size: 13px;
+ line-height: 20px;
+ margin-top: 30px;
+ margin-right: 20px;
+}
+
+.data_post{
+    font-size: 11px;
+    color: #42b3e5;
+
+}
+
+.seta{
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+}
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height:40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+}
+.info, .contact{
+    color: #909090;
+    font-size:13px;
+    margin-bottom:30px;
+}
+.contact_item{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.contact_item p{
+    flex: 1;
+    margin-right: 10px;
+}
+
+.contact_item span{
+    color: #d5d5d5;
+}
+.social_icons{
+    display: flex;
+    justify-content: space-around;
+}
